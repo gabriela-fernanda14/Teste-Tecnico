@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./fundo.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    width: 60vw;
+    height: 60vh;
+    background-position:60vh;
+    background-size: 60vw;
+    display: flex;
+    align-self: center;
+    left: 20%;
+    border-radius: 2rem;
+    backdrop-filter: blur(10px);
+}
