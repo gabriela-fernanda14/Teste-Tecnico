@@ -28,22 +28,27 @@ main {
     height: 100%;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 2rem 0 0 2rem;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-h1, h2 {
-    margin: 70px 20px;
+h2 {
+    margin: 50px;
 }
 
 button {
-    margin: 30px 50px;
     padding: 20px;
+    margin-bottom: 30px;
     border-radius: 30px;
+
 }
 
 .icons {
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    width: 100%;
 }
 
 img {
@@ -51,5 +56,28 @@ img {
 }
 
 .right {
+    width: 70%;
+    height: 100%;
+    border-radius:  0 2rem 2rem 0;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
 
+.logar {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    
+}
+
+input {
+    margin: 10px;   
+}
+
+.entrar {
+    background-color: blue;
+    color: white;
 }
